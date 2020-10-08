@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "aaaoab:block/candymension_portal_ew"
+    },
+    "axis=x": {
+      "model": "aaaoab:block/candymension_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aaaoab:blocks/choclate_block",
+    "up": "aaaoab:blocks/coated_chocolate_block_top",
+    "north": "aaaoab:blocks/coated_chocolate_block_side",
+    "east": "aaaoab:blocks/coated_chocolate_block_side",
+    "south": "aaaoab:blocks/coated_chocolate_block_side",
+    "west": "aaaoab:blocks/coated_chocolate_block_side",
+    "particle": "aaaoab:blocks/choclate_block"
+  }
+}

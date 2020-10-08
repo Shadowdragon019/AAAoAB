@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aaaoab:blocks/structure_void_remover",
+    "up": "aaaoab:blocks/structure_void_remover",
+    "north": "aaaoab:blocks/structure_void_remover",
+    "east": "aaaoab:blocks/structure_void_remover",
+    "south": "aaaoab:blocks/structure_void_remover",
+    "west": "aaaoab:blocks/structure_void_remover",
+    "particle": "aaaoab:blocks/structure_void_remover"
+  }
+}

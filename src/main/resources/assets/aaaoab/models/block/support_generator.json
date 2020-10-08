@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aaaoab:blocks/spruce_log_top",
+    "up": "aaaoab:blocks/spruce_log_top",
+    "north": "aaaoab:blocks/support_generator_side",
+    "east": "aaaoab:blocks/support_generator_side",
+    "south": "aaaoab:blocks/support_generator_side",
+    "west": "aaaoab:blocks/support_generator_side",
+    "particle": "aaaoab:blocks/spruce_log_top"
+  }
+}

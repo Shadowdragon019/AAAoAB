@@ -1,0 +1,483 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PumpkinPastures",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pastures"
+    },
+    {
+      "name": "PumpkinSingle",
+      "type": "structure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_single"
+    },
+    {
+      "name": "PumpkinCarvedSingle",
+      "type": "structure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_carved_single"
+    },
+    {
+      "name": "BigPumpkin",
+      "type": "structure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_pumpkin"
+    },
+    {
+      "name": "BigPumpkinSkeleton",
+      "type": "structure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_pumpkin_skeleton"
+    },
+    {
+      "name": "BigPumpkinZombie",
+      "type": "structure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_pumpkin_zombie"
+    },
+    {
+      "name": "BigPumpkinSlime",
+      "type": "structure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_pumpkin_slime"
+    },
+    {
+      "name": "StructureVoidRemover",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "structure_void_remover"
+    },
+    {
+      "name": "StructureVoidRemoverUpdateTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "structure_void_remover_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreatPumpkin",
+      "type": "structure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "great_pumpkin"
+    },
+    {
+      "name": "PumpkinPasturesHouse",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pastures_house"
+    },
+    {
+      "name": "SupportGenerator",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "support_generator"
+    },
+    {
+      "name": "SupportGeneratorBlockAdded",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "support_generator_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PumpkinPasturesHouseOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_pastures_house_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SentientPumpkin",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sentient_pumpkin"
+    },
+    {
+      "name": "InfectedPumpkin",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_pumpkin"
+    },
+    {
+      "name": "InfectedPumpkinBlockAdded",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_pumpkin_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfectedPumpkinNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infected_pumpkin_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PumpkinWizard",
+      "type": "mob",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_wizard"
+    },
+    {
+      "name": "PumpkinWizardOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_wizard_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PumpkinBomb",
+      "type": "mob",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_bomb"
+    },
+    {
+      "name": "PumpkinBombOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_bomb_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PumpkinBombOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_bomb_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PumpkinWizardEntityIsHurt",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_wizard_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PumpkinPlains",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pumpkin_plains"
+    },
+    {
+      "name": "CandyStone",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_stone"
+    },
+    {
+      "name": "ChocolateBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_block"
+    },
+    {
+      "name": "CoatedChocolateBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coated_chocolate_block"
+    },
+    {
+      "name": "TobleroneMountains",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toblerone_mountains"
+    },
+    {
+      "name": "Candymension",
+      "type": "dimension",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candymension"
+    },
+    {
+      "name": "HardRockCandyOre",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hard_rock_candy_ore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.aaaoab.sentient_pumpkin": "Pumpkin Creature",
+      "block.aaaoab.hard_rock_candy_ore": "Hard Rock Candy Ore",
+      "block.aaaoab.candy_stone": "Candy Stone",
+      "item.aaaoab.sentient_pumpkin": "Pumpkin Creature Spawn Egg",
+      "item.aaaoab.pumpkin_wizard": "Pumpkin Wizard Spawn Egg",
+      "item.aaaoab.pumpkin_bomb": "Pumpkin Bomb Spawn Egg",
+      "entity.aaaoab.pumpkin_bomb": "Pumpkin Bomb",
+      "entity.aaaoab.pumpkin_wizard": "Pumpkin Wizard",
+      "block.aaaoab.structure_void_remover": "Structure Void Remover",
+      "block.aaaoab.chocolate_block": "Chocolate Block",
+      "block.aaaoab.coated_chocolate_block": "Coated Chocolate Block",
+      "block.aaaoab.support_generator": "Support Generator",
+      "block.aaaoab.infected_pumpkin": "Infected Pumpkin",
+      "item.aaaoab.candymension": "Candymension Portal Igniter"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "aaaoab",
+    "modName": "An Approximate Amount Of Appropriate Biomes",
+    "version": "1.0.0",
+    "description": "To add a bunch of biomes",
+    "author": "Oskar W. Heineck, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.aaaoab",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

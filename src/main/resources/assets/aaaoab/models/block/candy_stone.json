@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aaaoab:blocks/candy_stone",
+    "up": "aaaoab:blocks/candy_stone",
+    "north": "aaaoab:blocks/candy_stone",
+    "east": "aaaoab:blocks/candy_stone",
+    "south": "aaaoab:blocks/candy_stone",
+    "west": "aaaoab:blocks/candy_stone",
+    "particle": "aaaoab:blocks/candy_stone"
+  }
+}

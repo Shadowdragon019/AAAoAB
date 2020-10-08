@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aaaoab:blocks/sick_pumpkin_top",
+    "up": "aaaoab:blocks/sick_pumpkin_top",
+    "north": "aaaoab:blocks/sick_pumpkin_side",
+    "east": "aaaoab:blocks/sick_pumpkin_side",
+    "south": "aaaoab:blocks/sick_pumpkin_side",
+    "west": "aaaoab:blocks/sick_pumpkin_side",
+    "particle": "aaaoab:blocks/sick_pumpkin_top"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "entity.aaaoab.sentient_pumpkin": "Pumpkin Creature",
+  "block.aaaoab.hard_rock_candy_ore": "Hard Rock Candy Ore",
+  "block.aaaoab.candy_stone": "Candy Stone",
+  "item.aaaoab.sentient_pumpkin": "Pumpkin Creature Spawn Egg",
+  "item.aaaoab.pumpkin_wizard": "Pumpkin Wizard Spawn Egg",
+  "item.aaaoab.pumpkin_bomb": "Pumpkin Bomb Spawn Egg",
+  "entity.aaaoab.pumpkin_bomb": "Pumpkin Bomb",
+  "entity.aaaoab.pumpkin_wizard": "Pumpkin Wizard",
+  "block.aaaoab.structure_void_remover": "Structure Void Remover",
+  "block.aaaoab.chocolate_block": "Chocolate Block",
+  "block.aaaoab.coated_chocolate_block": "Coated Chocolate Block",
+  "block.aaaoab.support_generator": "Support Generator",
+  "block.aaaoab.infected_pumpkin": "Infected Pumpkin",
+  "item.aaaoab.candymension": "Candymension Portal Igniter"
+}
