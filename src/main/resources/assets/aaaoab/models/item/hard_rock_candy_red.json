@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "aaaoab:items/red_hard_rock_candy"
+  }
+}

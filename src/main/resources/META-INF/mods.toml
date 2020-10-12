@@ -3,11 +3,12 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="aaaoab"
-version="1.0.0"
+version="Beta 1.0.0"
 displayName="An Approximate Amount Of Appropriate Biomes"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Oskar W. Heineck, MCreator"
+logoFile="logo.png"
+authors="Shadowdragon019, MCreator"
 description='''
 To add a bunch of biomes
 '''

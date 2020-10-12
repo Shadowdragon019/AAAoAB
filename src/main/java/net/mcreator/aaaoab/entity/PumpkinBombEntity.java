@@ -58,8 +58,8 @@ public class PumpkinBombEntity extends AaaoabModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("pumpkin_bomb")
 						.setRegistryName("pumpkin_bomb");
 		elements.entities.add(() -> entity);
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -26368, -10210816, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("pumpkin_bomb"));
+		elements.items.add(() -> new SpawnEggItem(entity, -26368, -10210816, new Item.Properties().group(ItemGroup.MISC))
+				.setRegistryName("pumpkin_bomb_spawn_egg"));
 	}
 
 	@SubscribeEvent
@@ -104,10 +104,6 @@ public class PumpkinBombEntity extends AaaoabModElements.ModElement {
 		@Override
 		public boolean canDespawn(double distanceToClosestPlayer) {
 			return false;
-		}
-
-		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
-			super.dropSpecialItems(source, looting, recentlyHitIn);
 		}
 
 		@Override

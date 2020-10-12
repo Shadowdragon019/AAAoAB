@@ -6,7 +6,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.CountRangeConfig;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
@@ -18,21 +17,17 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aaaoab.world.dimension.CandymensionDimension;
 import net.mcreator.aaaoab.AaaoabModElements;
 
 import java.util.Random;
-import java.util.List;
-import java.util.Collections;
 
 @AaaoabModElements.ModElement.Tag
 public class HardRockCandyOreBlock extends AaaoabModElements.ModElement {
@@ -53,14 +48,6 @@ public class HardRockCandyOreBlock extends AaaoabModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 6f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("hard_rock_candy_ore");
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	@Override
@@ -88,7 +75,7 @@ public class HardRockCandyOreBlock extends AaaoabModElements.ModElement {
 						if (blockAt.getBlock() == CandyStoneBlock.block.getDefaultState().getBlock())
 							blockCriteria = true;
 						return blockCriteria;
-					}), block.getDefaultState(), 10)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(2, 0, 0, 16))));
+					}), block.getDefaultState(), 12)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(4, 0, 0, 16))));
 		}
 	}
 }

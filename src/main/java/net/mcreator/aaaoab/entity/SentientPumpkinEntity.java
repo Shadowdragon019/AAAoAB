@@ -62,8 +62,8 @@ public class SentientPumpkinEntity extends AaaoabModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("sentient_pumpkin")
 						.setRegistryName("sentient_pumpkin");
 		elements.entities.add(() -> entity);
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -26368, -39424, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("sentient_pumpkin"));
+		elements.items.add(() -> new SpawnEggItem(entity, -26368, -39424, new Item.Properties().group(ItemGroup.MISC))
+				.setRegistryName("sentient_pumpkin_spawn_egg"));
 	}
 
 	@Override

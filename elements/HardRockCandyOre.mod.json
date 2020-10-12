@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 11,
   "_type": "block",
   "definition": {
     "texture": "hard_rock_candy_ore",
@@ -35,6 +35,7 @@
       "value": ""
     },
     "dropAmount": 1,
+    "useLootTableForDrops": true,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -101,8 +102,8 @@
         "value": "CUSTOM:CandyStone"
       }
     ],
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 10,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 12,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 16
   }

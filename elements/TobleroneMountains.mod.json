@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 11,
   "_type": "biome",
   "definition": {
     "groundBlock": {
@@ -25,16 +25,16 @@
     "treeFruits": {
       "value": ""
     },
-    "treesPerChunk": 3,
-    "grassPerChunk": 4,
-    "flowersPerChunk": 4,
+    "treesPerChunk": 0,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPathcesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "rainingPossibility": 0.5,
+    "rainingPossibility": 0.0,
     "temperature": 0.5,
     "baseHeight": 1.0,
     "heightVariation": 0.8,
