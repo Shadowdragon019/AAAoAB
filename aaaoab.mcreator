@@ -475,6 +475,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hard_rock_candy_ore_loot"
+    },
+    {
+      "name": "BunkerUncooked",
+      "type": "loottable",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker_uncooked"
     }
   ],
   "variable_elements": [],
