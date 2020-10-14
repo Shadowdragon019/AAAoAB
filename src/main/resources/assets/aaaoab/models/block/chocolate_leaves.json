@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aaaoab:blocks/chocolate_leaves",
+    "up": "aaaoab:blocks/chocolate_leaves",
+    "north": "aaaoab:blocks/chocolate_leaves",
+    "east": "aaaoab:blocks/chocolate_leaves",
+    "south": "aaaoab:blocks/chocolate_leaves",
+    "west": "aaaoab:blocks/chocolate_leaves",
+    "particle": "aaaoab:blocks/chocolate_leaves"
+  }
+}

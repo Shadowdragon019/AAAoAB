@@ -3,6 +3,7 @@
   "entity.aaaoab.sentient_pumpkin": "Pumpkin Creature",
   "block.aaaoab.hard_rock_candy_ore": "Hard Rock Candy Ore",
   "item.aaaoab.pumpkin_bomb_spawn_egg": "Pumpkin Bomb Spawn Egg",
+  "block.aaaoab.chocolate_leaves": "Chocolate Leaves",
   "block.aaaoab.candy_stone": "Candy Stone",
   "item.aaaoab.sentient_pumpkin": "Pumpkin Creature Spawn Egg",
   "item.aaaoab.pumpkin_wizard": "Pumpkin Wizard Spawn Egg",
@@ -15,8 +16,10 @@
   "item.aaaoab.sentient_pumpkin_spawn_egg": "Pumpkin Creature Spawn Egg",
   "block.aaaoab.support_generator": "Support Generator",
   "item.aaaoab.hard_rock_candy_blue": "Blue Hard Rock Candy",
+  "block.aaaoab.chocolate_wood": "Chocolate Wood",
   "item.aaaoab.hard_rock_candy_yellow": "Yellow Hard Rock Candy",
   "block.aaaoab.infected_pumpkin": "Infected Pumpkin",
   "item.aaaoab.candymension": "Candymension Portal Igniter",
-  "item.aaaoab.hard_rock_candy_red": "Red Hard Rock Candy"
+  "item.aaaoab.hard_rock_candy_red": "Red Hard Rock Candy",
+  "block.aaaoab.chcolate_log": "Chcolate Log"
 }
