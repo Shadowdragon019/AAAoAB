@@ -502,6 +502,90 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bunker_potions"
+    },
+    {
+      "name": "BunkerTrueLoot",
+      "type": "loottable",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker_true_loot"
+    },
+    {
+      "name": "BunkerRedstone",
+      "type": "loottable",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker_redstone"
+    },
+    {
+      "name": "BunkerNature",
+      "type": "loottable",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker_nature"
+    },
+    {
+      "name": "BunkerBuilding",
+      "type": "loottable",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker_building"
+    },
+    {
+      "name": "BunkerMiscellaneous",
+      "type": "loottable",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker_miscellaneous"
+    },
+    {
+      "name": "Bunker",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker"
+    },
+    {
+      "name": "BunkerAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bunker_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
