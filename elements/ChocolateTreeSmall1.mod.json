@@ -1,0 +1,34 @@
+{
+  "_fv": 11,
+  "_type": "structure",
+  "definition": {
+    "structure": "air",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 5,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Candymension"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:CoatedChocolateBlock"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TobleroneMountains"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "ChocolateTreeSmall1AdditionalGenerationCondition"
+    },
+    "onStructureGenerated": {
+      "name": "ChocolateTreeSmall1OnStructureInstanceGenerated"
+    }
+  }
+}

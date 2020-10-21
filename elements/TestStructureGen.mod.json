@@ -1,0 +1,11 @@
+{
+  "_fv": 11,
+  "_type": "command",
+  "definition": {
+    "commandName": "teststructuregen",
+    "permissionLevel": 4,
+    "onCommandExecuted": {
+      "name": "TestStructureGenCommandExecuted"
+    }
+  }
+}
