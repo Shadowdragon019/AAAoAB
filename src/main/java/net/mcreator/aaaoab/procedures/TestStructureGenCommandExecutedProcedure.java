@@ -79,6 +79,23 @@ public class TestStructureGenCommandExecutedProcedure extends AaaoabModElements.
 						$_dependencies.put("z", z);
 						ChocolateTreeSmall1OnStructureInstanceGeneratedProcedure.executeProcedure($_dependencies);
 					}
+				} else if ((((new Object() {
+					public String getText() {
+						String param = (String) cmdparams.get("2");
+						if (param != null) {
+							return param;
+						}
+						return "";
+					}
+				}.getText())).equals("Normal"))) {
+					{
+						Map<String, Object> $_dependencies = new HashMap<>();
+						$_dependencies.put("world", world);
+						$_dependencies.put("x", x);
+						$_dependencies.put("y", y);
+						$_dependencies.put("z", z);
+						ChocolateTreeNormalOnStructureInstanceGeneratedProcedure.executeProcedure($_dependencies);
+					}
 				}
 			}
 		}
