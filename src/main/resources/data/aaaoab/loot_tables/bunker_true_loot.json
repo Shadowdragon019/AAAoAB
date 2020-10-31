@@ -456,6 +456,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aaaoab:candymension",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     }

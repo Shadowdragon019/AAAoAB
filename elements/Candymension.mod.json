@@ -12,11 +12,11 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Candymension Portal Igniter",
+    "igniterName": "Flint N Chocolate",
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "need_texture_texture",
+    "texture": "flint_and_chocolate",
     "portalTexture": "chocolateportal",
     "enablePortal": true,
     "biomesInDimension": [
